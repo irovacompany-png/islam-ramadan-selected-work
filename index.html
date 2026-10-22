@@ -8,14 +8,15 @@
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=3"><script src="app.js?v=3" defer></script>
+<script>try{document.documentElement.dataset.theme=localStorage.getItem("ir-theme")||"dark"}catch(e){document.documentElement.dataset.theme="dark"}</script>
+<link rel="stylesheet" href="style.css?v=4"><script src="app.js?v=4" defer></script><script src="preferences.js?v=4" defer></script>
 </head>
-<body id="top">
+<body id="top"><div id="reading-progress" aria-hidden="true"></div>
 <a class="skip" href="#work">انتقل إلى المشروعات</a>
 <header class="header wrap">
  <a class="identity" href="#top" aria-label="إسلام رمضان الرئيسية"><span class="monogram">ir<span>°</span></span><span><b>ISLAM RAMADAN</b><small>FOUNDER OF IROVA</small></span></a>
  <nav aria-label="التنقل الرئيسي"><a href="#work">المشروعات</a><a href="#approach">طريقة العمل</a><a href="#about">عنّي</a></nav>
- <a class="nav-contact" href="#contact">لنتحدث <span>↗</span></a>
+ <div class="header-tools"><button id="language-toggle" type="button" aria-label="Switch to English">EN</button><button id="theme-toggle" type="button" aria-label="تفعيل الوضع الفاتح">☀ <span>فاتح</span></button><a class="nav-contact" href="#contact">لنتحدث <span>↗</span></a></div>
 </header>
 <main>
  <section class="hero cinema" aria-labelledby="hero-title"><div class="cinema-scene" aria-hidden="true"></div><div class="cinema-shade" aria-hidden="true"></div><div class="cinema-line" aria-hidden="true"></div><div class="cinema-content wrap"><div class="cinema-overline"><span></span> ISLAM RAMADAN / FOUNDER OF IROVA</div><p class="cinema-intro">من قلب العمل الحقيقي.</p><h1 id="hero-title">أفكار تُرى.<br><em>وحلول تُستخدم.</em></h1><p class="cinema-description">أتمتة للفنادق. تجربة متكاملة لمطعم.<br>وأنظمة تبدأ من فهم تفاصيل العمل.</p><div class="hero-actions"><a class="button solid" href="#work">ادخل إلى أعمالي <span>↙</span></a><a class="underlined" href="https://la-fornata-production.onrender.com/" target="_blank" rel="noopener noreferrer">شاهد لا فورناتا <span>↗</span></a></div></div><div class="cinema-bottom wrap"><span>DESIGN WITH PURPOSE. BUILD WITH EXPERIENCE.</span><a href="#work">استكشف المشروعات <b>↓</b></a><span>SELECTED WORK — 2026</span></div></section>
